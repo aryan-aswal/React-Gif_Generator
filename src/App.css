@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700;800&display=swap');
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+:root {
+  --colorDark1:#112D4E;
+  --colorDark2: #3F72AF;
+  --colorLight1: #DBE2EF;
+  --colorLight2: #F9F7F7;
+}
+.wrapper {
+  width: 99vw;
+  min-height: 100vh;
+  color: var(--colorLight2);
+  background-image: linear-gradient(160deg, #112D4E 0%, #3F72AF 100%); /* use angry tool */
+}
+.main-div-heading{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 32px;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1.1rem;
+  width: 65vw;
+  text-align: center;
+  padding: 10px;
+}
+.gif-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gif-section-button {
+  margin-block: 40px;
+  width: 65vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.gif-section-button button {
+  padding: 4px 10px;
+}
+img {
+  border-radius: 10px;
+}
+.active {
+  background-color: #dbe2ef81;
+  border-radius: 4px;
+}
+.gif-image-section {
+  background-color: #dbe2ef78;
+  min-width: 450px;
+  min-height: 450px;
+  padding: 30px 30px 10px 30px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+.random-div-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.random-div, .tag-div {
+  min-height: 450px;
+}
+.random-div-buttons button {
+  font-size: 1.5rem;
+}
+
+.random-div-image{
+  min-height: 384px;
+}
+.input-div {
+  margin-block: 15px;
+  width: 100%;
+}
+input[type="text"] {
+  all: unset;
+  width: 100%;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  border: #3F72AF 2px solid;
+  background-color: white;
+}
+.tag-div-button {
+  font-size: 1.5rem;
+  color: white;
+}
